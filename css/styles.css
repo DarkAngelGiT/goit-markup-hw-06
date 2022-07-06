@@ -590,6 +590,14 @@ body {
   fill: currentColor;
 }
 
+.footer-mail-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
 /*/////////////////////////////////////////__ PORTFOLIO __////////////////////////////////////////*/
 
 /*=============================== BUTTONS */
