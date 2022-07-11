@@ -545,7 +545,7 @@ body {
 }
 
 .footer-social-container {
-  margin-right: 93px;
+  margin-right: auto;
 }
 
 .footer-social-title {
@@ -592,12 +592,6 @@ body {
 
 .footer-social-icon {
   fill: currentColor;
-}
-
-.footer-mail-container {
-  display: flex;
-  flex-direction: column;
-  width: 570px;
 }
 
 .footer-mail-title {
@@ -946,6 +940,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-comment:focus {
